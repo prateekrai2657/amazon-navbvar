@@ -1,2 +1,2 @@
-# app-clone
-this is clone 
+# Navbar-clone
+This is navbar-clone 
