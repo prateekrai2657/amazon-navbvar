@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Amazon Navbar</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header class="amazon-header">
+			<nav class="top-nav" aria-label="Main navigation">
+				<a class="amazon-logo" href="#" aria-label="Amazon home">amazon<span aria-hidden="true">&#8594;</span></a>
+
+				<a class="location" href="#location">
+					<span class="location-icon" aria-hidden="true">&#9906;</span>
+					<span><small>Deliver to</small><strong>United States</strong></span>
+				</a>
+
+				<form class="search-bar" role="search">
+					<label class="sr-only" for="search">Search products</label>
+					<select aria-label="Search category">
+						<option>All</option>
+						<option>Books</option>
+						<option>Electronics</option>
+					</select>
+					<input id="search" type="search" placeholder="Search Amazon" />
+					<button type="submit" aria-label="Submit search">&#128269;</button>
+				</form>
+
+				<a class="nav-item account" href="#account"><small>Hello, sign in</small><strong>Account &amp; Lists <span>&#9662;</span></strong></a>
+				<a class="nav-item" href="#orders"><small>Returns</small><strong>&amp; Orders</strong></a>
+				<a class="cart" href="#cart" aria-label="Shopping cart"><span aria-hidden="true">&#128722;</span><strong>Cart</strong></a>
+			</nav>
+
+			<nav class="sub-nav" aria-label="Secondary navigation">
+				<a class="all-menu" href="#all"><span aria-hidden="true">&#9776;</span> All</a>
+				<a href="#deals">Today's Deals</a>
+				<a href="#service">Customer Service</a>
+				<a href="#registry">Registry</a>
+				<a href="#gift-cards">Gift Cards</a>
+				<a href="#sell">Sell</a>
+			</nav>
+		</header>
+	</body>
+</html>
